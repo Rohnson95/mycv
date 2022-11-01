@@ -10,8 +10,9 @@
     font-family: 'Roboto', sans-serif;
 }
 body {
+    
     background-color: #9ae4ff;
-    flex-wrap: wrap;
+    
 }
 header{
     /* background-color: darkblue; */
@@ -54,6 +55,13 @@ a{
     
     
 
+}
+a:active{
+    background:black;
+    color:white;
+}
+.textCV{
+    text-align: center;
 }
 .portfolio {
     width:100%;
@@ -414,6 +422,11 @@ li {
         background:greenyellow;
         color:black;
     }
+    a:active{
+        background: green;
+        color:black;
+    }
+
     header{
         font-size: 1.5em;
     }
