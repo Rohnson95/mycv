@@ -60,6 +60,9 @@ a:active{
     background:black;
     color:white;
 }
+#page{
+    background-color: #4d5f5f;
+}
 .textCV{
     text-align: center;
 }
